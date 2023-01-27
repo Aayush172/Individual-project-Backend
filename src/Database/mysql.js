@@ -1,10 +1,10 @@
-import mysql from 'mysql';
+import mysql from 'mysql2';
 import { promisify } from 'util';
 
 const pool = mysql.createPool({
     host: 'localhost',
     user: 'root',
-    password: "",
+    password: "@$Bitch77",
     database: 'frave_food'
 });
 
